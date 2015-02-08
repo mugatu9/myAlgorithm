@@ -1,0 +1,33 @@
+body {
+  background: #ea6a25;
+background: -moz-linear-gradient(-45deg, #ea6a25 0%, #007a0c 25%, #871696 50%, #585e5b 75%, #d3a819 100%);
+background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#ea6a25), color-stop(25%,#007a0c), color-stop(50%,#871696), color-stop(75%,#585e5b), color-stop(100%,#d3a819));
+background: -webkit-linear-gradient(-45deg, #ea6a25 0%,#007a0c 25%,#871696 50%,#585e5b 75%,#d3a819 100%);
+background: -o-linear-gradient(-45deg, #ea6a25 0%,#007a0c 25%,#871696 50%,#585e5b 75%,#d3a819 100%);
+background: -ms-linear-gradient(-45deg, #ea6a25 0%,#007a0c 25%,#871696 50%,#585e5b 75%,#d3a819 100%);
+background: linear-gradient(135deg, #ea6a25 0%,#007a0c 25%,#871696 50%,#585e5b 75%,#d3a819 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ea6a25', endColorstr='#d3a819',GradientType=1 );
+}
+
+div, button {
+  display: inline-block;
+  border: 3px solid purple;
+  padding: 10px 10px 10px 10px;
+  font-size: 15px;
+  margin: 0 auto 0 auto;
+}
+
+div {
+  width: 150px;
+  text-align: center;
+}
+
+div h1 {
+  border: 1px dashed green;
+
+}
+
+.highlight {
+  color: crimson;
+  background-color: yellow;
+}
